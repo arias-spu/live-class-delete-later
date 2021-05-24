@@ -4,7 +4,11 @@
   "description": "Just for class",
   "main": "mufasa.js",
   "scripts": {
+    "start": "node mufasa.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":{
+    "node": "12.x"
   },
   "dependencies": {
     "express": "4.17.1"
